@@ -10,10 +10,8 @@ header{
             align-items: center;
             width: 20%;
             a{
-                font-size: 1.5rem;
                 text-decoration: none;
-                font-family: @main-font;
-                color: @white;
+                .textStyle(@white, 1.5rem);
                 &:hover{
                     transform: scale(1.1);
                 }
@@ -26,14 +24,11 @@ header{
         align-items: center;
         margin: 40px 0;
         h1{
-            font-family: @main-font;
-            color: @text-color;
-            font-size: 2rem;
+            .textStyle(@text-color, 2rem);
             margin-bottom: 20px;
         }
         p{
-            font-family: @main-font;
-            color: @text-color;
+            .textStyle(@text-color, 1rem);
             margin-bottom: 20px;
         }
     }
