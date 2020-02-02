@@ -147,3 +147,51 @@ header .nav-bar nav a {
 header .nav-bar nav a:hover {
   transform: scale(1.1);
 }
+header .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px 0;
+}
+header .title h1 {
+  font-family: Helvetica, sans-serif;
+  color: #646464;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+header .title p {
+  font-family: Helvetica, sans-serif;
+  color: #646464;
+  margin-bottom: 20px;
+}
+.body {
+  margin: 20px 10%;
+}
+.body .container {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+}
+.body .container canvas {
+  width: 50%;
+}
+.body .container .content {
+  width: 50%;
+  padding: 10px;
+}
+.body .container .content h2,
+.body .container .content p {
+  font-family: Helvetica, sans-serif;
+  color: #646464;
+}
+.body .container .content h2 {
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+.body .container .content p {
+  line-height: 1.5rem;
+}
+.body .reverse {
+  display: flex;
+  flex-direction: row-reverse;
+}

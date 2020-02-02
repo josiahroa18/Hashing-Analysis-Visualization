@@ -1,0 +1,28 @@
+.body{
+    margin: 20px 10%;
+    .container{
+        .display(row);
+        height: 50vh;
+        canvas{
+            width: 50%;
+        }
+        .content{
+            width: 50%;
+            padding: 10px;
+            h2, p{
+                font-family: @main-font;
+                color: @text-color;
+            }
+            h2{
+                font-size: 1.4rem;
+                margin: 10px 0;
+            }
+            p{
+                line-height: 1.5rem;
+            }
+        }
+    }
+    .reverse{
+        .display(row-reverse);
+    }
+}
